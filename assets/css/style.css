@@ -1,0 +1,89 @@
+
+/*Autor Details
+Author Name: Anik Islam
+Template: Real-State
+Version: 1.0.0
+*/
+
+
+
+/* Css variables */
+:root{
+    --heading-font: 'Overpass', sans-serif;
+    --body-fonts: 'Poppins', sans-serif;
+    --nav-men: #FFFFFF;
+    --nav-bg: #552FFF;
+}
+
+
+body{
+    font-family: var(--body-font);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h1{
+    font-size: 105px;
+}
+h2{
+    font-size: 75px;
+}
+h3{
+    font-size:64px ;
+}
+h4{
+    font-size: 40px;
+}
+h5{
+    font-size: 32;
+}
+h6{
+    font-size: 20;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: var(--heading-font);
+}
+/* .nav-bar{
+    max-width: 1300px;
+} */
+.container{
+    max-width: 1300px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 24px;
+}
+
+/* NAV BAR START */
+.nav-bar{
+    margin: 0 auto;
+    
+}
+ .nav-row{
+    background-color: var(--nav-bg);
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 21px 70px 0 70px;
+
+}
+.nav-menu nav ul{
+    list-style: none;
+}
+.nav-menu nav ul li{
+    display: inline-block;
+}
+.nav-menu nav ul li a{
+    color: var(--nav-men);
+    margin-right: 40px;  
+    font-family: var(--heading-font);
+    /* font-weight: 400; */
+}
+.nav-bar .nav-right .nav-search input.placeholder{
+    padding: 12px 90px 12px 90px;
+}
+/* NAV BAR END */
