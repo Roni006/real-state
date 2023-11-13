@@ -11,11 +11,11 @@ Version: 1.0.0
 :root{
     --heading-font: 'Overpass', sans-serif;
     --body-fonts: 'Poppins', sans-serif;
-    --nav-men: #FFFFFF;
+    --white-color: #FFFFFF;
     --nav-bg: #552FFF;
 }
 
-
+/* css bases */
 body{
     font-family: var(--body-font);
     margin: 0;
@@ -58,9 +58,11 @@ a{
     font-size: 24px;
 }
 
+
 /* NAV BAR START */
-.nav-bar{
-    margin: 0 auto;
+.nav-bar .container{
+    /* align-items: center;
+    justify-content: center; */
     
 }
  .nav-row{
@@ -68,8 +70,15 @@ a{
     display: flex;
     justify-content: space-between;
     align-content: center;
-    padding: 21px 70px 0 70px;
-
+    padding: 21px 70px 0 70px; 
+    /* padding: 20px 70px 145px 70px; */
+    position: relative;
+   
+}
+.logo img{
+    position: absolute;
+    margin-top: 6px;
+    
 }
 .nav-menu nav ul{
     list-style: none;
@@ -78,12 +87,65 @@ a{
     display: inline-block;
 }
 .nav-menu nav ul li a{
-    color: var(--nav-men);
+    color: var(--white-color);
     margin-right: 40px;  
     font-family: var(--heading-font);
-    /* font-weight: 400; */
+    transition: 0.5s;
+    
 }
-.nav-bar .nav-right .nav-search input.placeholder{
+/* .nav-bar .nav-right .nav-search input.placeholder{
+    padding: 12px 90px 12px 90px;   
+} */
+.nav-menu nav ul li a:hover{
+    color: black ;
+}
+.nav-right{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 230px;
+}
+.nav-flex{
+    display: flex;
+    align-items: center;
+}
+.nav-bar .nav-search{
+    display: flex;
+    background-color: var(--white-color);
+    padding: 8px 50px 8px 35px;
+    border-radius: 50px;
+    margin-bottom: 21px;
+    display: block;
+   
+}
+.nav-bar .nav-search button{
+    border: 0;
+    background-color: transparent;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+
+}
+.nav-bar .nav-search input{
+    border: 0;
+    background-color: transparent;
+    font-size: 20px;
+}
+/* input[type=text]{
     padding: 12px 90px 12px 90px;
+} */
+::placeholder{
+    font-family: var(--heading-font);
+    border: none;
+    background-color: transparent;
+}
+.nav-bar .nav-btn a{
+    color: var(--white-color);
+    border: none;
+    background-color: transparent;
+    font-size: 25px;
+    display: none;
+    margin-bottom: 15px;
+    
 }
 /* NAV BAR END */

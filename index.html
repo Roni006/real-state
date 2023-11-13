@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fonts awesome links -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <!-- google links -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -19,15 +21,23 @@
     <section class="nav-bar">
         <div class="container">
             <div class="nav-row">
-                <div class="logo">
-                    <img src="assets/img/loog.png" alt="">
-                </div>
+               
                 <div class="nav-right">
+                    <div class="logo">
+                        <a href="#"><img src="assets/img/loog.png" alt="logo-img"></a>
+                    </div>
                     <div class="nav-search">
-                       <form action="">
-                        <input type="text" placeholder="&#xf002 Search for any-thing">
+                       <form action="https://www.google.com/search" method="get" target="_blank">
+                        <button type="submit"><span><svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M21.2675 21L16.5535 16.2695L21.2675 21ZM19.1659 9.94737C19.1659 12.3204 18.2248 14.5962 16.5497 16.2741C14.8746 17.9521 12.6027 18.8947 10.2338 18.8947C7.86489 18.8947 5.59298 17.9521 3.9179 16.2741C2.24281 14.5962 1.30176 12.3204 1.30176 9.94737C1.30176 7.57438 2.24281 5.29858 3.9179 3.62062C5.59298 1.94267 7.86489 1 10.2338 1C12.6027 1 14.8746 1.94267 16.5497 3.62062C18.2248 5.29858 19.1659 7.57438 19.1659 9.94737V9.94737Z" stroke="#737373" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                            </span>
+                        </button>
+                        <input type="text" placeholder="Search for any-thing" name="q">
                        </form>
                     </div>
+                </div>
+                <div class="nav-flex">
                     <div class="nav-menu">
                         <nav>
                             <ul>
@@ -37,6 +47,9 @@
                                 <li><a href="#">About us</a></li>
                             </ul>
                         </nav>
+                    </div>
+                    <div class="nav-btn">
+                        <a href="#"><i class="fa-solid fa-bars"></i></a>
                     </div>
                 </div>
                 
