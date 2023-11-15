@@ -2,6 +2,10 @@
     .nav-menu nav ul{
         display: none;
     }
+    .nav-bar .nav-search {
+        margin-left: 10px;
+        padding: 5px 50px;
+    }
     .nav-bar .nav-btn a{
         display: block;
     }
