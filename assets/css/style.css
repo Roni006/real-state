@@ -362,3 +362,47 @@ input{
         margin-top: 10px;
     }
 /* OUR SECTION END */
+
+/* OUR-TEAM SECTION START */
+    .our-team{
+        padding: 120px 0 120px 0;
+        background-color: var(--financial-bg);
+    }
+    .our-team .our-team-content .our-title{
+        color: var(--nav-bg);
+        text-align: center;
+        margin: 0 auto;
+    }
+    .our-team .our-team-content .our-title h2{
+        color: var(--nav-bg);
+        font-weight: 700;
+    }
+    .our-team .our-team-content .our-subtitle{
+        max-width: 442px;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 60px;
+    }
+    .team-row{
+        display: flex;
+        gap: 35px;
+    }
+    .our-team .team-contents{
+        width: 300px;
+    }
+    .our-team .team-contents img{
+        border-radius: 50px;
+    }
+    .our-team .team-contents .team-details{
+        text-align: center;
+    }
+    .our-team .team-contents .team-details h5{
+        color: var(--nav-bg);
+        font-weight: 600;
+        margin-top: 20px;
+    }
+    .our-team .team-contents .team-details span{
+        font-size: 20px;
+    }
+/* OUR-TEAM SECTION END */
