@@ -374,7 +374,6 @@ input{
         margin: 0 auto;
     }
     .our-team .our-team-content .our-title h2{
-        color: var(--nav-bg);
         font-weight: 700;
     }
     .our-team .our-team-content .our-subtitle{
@@ -406,3 +405,50 @@ input{
         font-size: 20px;
     }
 /* OUR-TEAM SECTION END */
+
+
+/* TESTIMONIAL SECTION START */
+.testimonial-section{
+    padding: 120px 120px;
+    background-color: var(--financial-bg);
+}
+.testimonial-section .testimonial-content .testimonial-title{
+    color: var(--nav-bg);
+    text-align: center;
+    margin: 0 auto; 
+}
+.testimonial-section .testimonial-content .testimonial-title h2{
+    font-weight: 700;
+}
+.testimonial-section .testimonial-content .testimonial-subtitle{
+    max-width: 552px;
+    text-align: center;
+    margin: 0 auto;
+}
+.testimonial-section .testimonial-content .testimonial-subtitle p{
+    font-size: 20px;
+}
+.testimonial-section .testimonial-row{
+
+}
+.testimonial-section .testimonial-content-2{
+    width: 380px;
+    background-color: var(--nav-bg);
+    padding: 70px 50px 70px 50px;
+    border-radius: 25px;
+    text-align: center;
+    color: var(--white-color);
+    margin-top: 60px;
+}
+.testimonial-section .testimonial-content-2 .testimonial-text h5{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.testimonial-section .testimonial-content-2 .testimonial-text span{
+    font-size: 15px; 
+}
+.testimonial-section .testimonial-content-2 .testimonial-text p{
+    font-size: 20px;
+    margin-top: 25px;
+}
+/* TESTIMONIAL SECTION END */
