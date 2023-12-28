@@ -1,3 +1,46 @@
+@media(max-width: 1440px){
+    .hero-left h1 {
+        font-size: 90px;
+    }
+}
+
+@media(max-width: 1300px){
+    .hero-content{
+        flex-wrap: wrap;
+    }
+    .hero-left{
+        margin-left: 70px;
+    }
+    .hero-right{
+        max-width: 100%;
+    }
+    .square-shape{
+        left: 20px;
+    }
+}
+
+@media(max-width: 1280px){
+    .finanlcial-section .finanlcial-content h2{
+        font-size: 60px;
+    }
+    .financial-section .fc-row{
+        flex-wrap: wrap;
+    }
+    .hero-left h1{
+        font-size: 65px;
+    }
+}
+@media(max-width: 1180px){
+    .financial-section .financial-content h2{
+        font-size: 45px;
+    }
+    .financial-section .fc-left .fc-text .first{
+        font-size: 18px;
+    }
+    .financial-section .fc-left .fc-text .second{
+        font-size: 18px;
+    }
+}
 @media(max-width: 1150px){
     .nav-menu nav ul{
         display: none;
@@ -10,8 +53,166 @@
         display: block;
     }
 }
+@media(max-width: 1130px){
+    .financial-section .fc-condition .fc-content .text{
+        font-size: 25px;
+        margin-left: 30px;
+    }
+    .financial-section .fc-condition .fc-content .icon{
+        width: 30px;
+        height: 20px;
+    }
+    .financial-section .fc-condition .fc-content .icon-bg{
+        width: 40px;
+        height: 40px;
+    }
+}
+
+
+@media(max-width: 1080px){
+    .hero-right{
+        margin-left: 50px;
+    }
+    .square-shape{
+        left: 10px;
+        top: 308px;
+
+    }
+}
+@media(max-width: 965px){
+    .financial-section .fc-condition .fc-content .icon-bg{
+        margin-bottom: 50px;
+    }
+    .financial-section .fc-condition .fc-content .text {
+        margin-left: 50px;
+    }
+    .hero-right img{
+        max-width: 70%;
+    }
+    .square-shape{
+        width: 280px;
+        height: 230px;
+        top: 200px;
+
+    }
+}
+@media(max-width: 860px){
+    .hero-left h1{
+        font-size: 50px;
+    }
+    .hero-left p{
+        font-size: 18px;
+    }
+    .hero-left-content{
+        margin-top: 40px;
+    }
+    .hero-left .hero-left-btn{  
+        padding: 10px 25px 10px 25px;
+        margin-top: 40px;
+    }
+    .square-shape{
+        width: 335px;
+        height: 250px;
+        top: 284px;
+        
+    }
+    .hero-right{
+        width: 45%;
+    }
+}
 @media(max-width: 792px){
     .nav-bar .nav-search{
         display: none;
+    }
+}
+
+@media(max-width: 750px){
+    .hero-left .hero-left-content{
+        flex-wrap: wrap; 
+    }
+    .left-item-1 .h-title{
+        width: calc(195px - 20px);
+    }
+    .hero-left p{
+        font-size: 15px;
+    }
+    .square-shape{
+        width: 300px;
+        top: 213px;
+        right: 213px ;
+
+    } 
+    /* .hero-right{
+        display: none;
+    } */
+}
+@media(max-width: 650px){
+    .hero-left h1{
+        font-size: 35px;
+        max-width: 100%;
+    }
+    /* .hero-content{
+        align-items: center;
+        justify-content: center;
+    } */
+    .hero-right{
+        display: none;
+    }
+    .hero-left .h-title{
+        width: calc(100% - -330px);
+    }
+    .hero-left .hero-left-btn {
+        margin-left: 158px;
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width: 460px){
+    .hero-left h1{
+        font-size: 23px;
+        text-align: center;
+        margin-left: 24%;
+    }
+    .hero-left p{
+        margin-left: 24%;
+        text-align: center;
+        margin-top: 15px;
+    }
+    /* .hero-left{
+        margin-left: 50px;
+    } */
+    .hero-left .h-title{
+        width: calc(100% - -140px);
+    }
+    .hero-left .hero-left-btn{
+        margin-left: 63px;
+        /* padding: 8px 15px 8px 15px; */
+        width: 77%;
+    }
+}
+
+@media(max-width: 375px){
+    .hero-left h1{
+        font-size: 20px;
+        margin-right: 15px;
+    }
+    .hero-left p{
+        font-size: 12px;
+        margin-right: 15px;
+    }
+    .hero-left .h-title{
+        width: calc(100% - -60px);
+    }
+    .hero-left .hero-left-btn{
+        margin: 0;
+        margin-top: 20px ;
+        margin-left: 34px;
+        margin-bottom: 30px;
+
+    }
+    .hero-left .hero-left-btn a h6{
+        font-size: 15px;
+        
+       
     }
 }
